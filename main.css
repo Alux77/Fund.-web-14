@@ -1,0 +1,66 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+small.page_no {
+  float: right;
+  color: #ddd;
+}
+
+ul {
+  position: absolute;
+  left: 387px;
+  top: 570px;
+}
+
+li {
+  border-radius: 5px;
+}
+
+li, a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+  opacity: .9;
+}
+
+a {
+  margin-top: 20px;
+  float: left;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #c6c6c6;
+}
+
+.active {
+  background-color: #c6c6c6;
+}
+
+.disabled {
+  color: black;
+  opacity: .6;
+}
+
+.last {
+  border-radius: 0px 5px 5px 0px;
+}
+.first {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.footer {
+  margin-top: 60px;
+}
